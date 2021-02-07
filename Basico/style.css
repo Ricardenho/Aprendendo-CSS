@@ -1,0 +1,6 @@
+h1{
+    color : blue; /*cor da fonte*/
+    font-size: 60px; /*tamanho da fonte*/
+    font-family: Arial, Helvetica, sans-serif;
+    background:goldenrod; /*cor de fundo*/
+}/*procura no body do html, toda tag h1 e modifica*/
