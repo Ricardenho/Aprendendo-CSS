@@ -1,0 +1,13 @@
+h1{
+    text-align: center;
+    font-size: 89px;
+    border: 10px solid red;
+    margin: 200px;
+    padding: 60px;
+}
+
+#teste{
+    border: 1px solid red;
+    margin: 200px;
+    padding: 60px;
+}
