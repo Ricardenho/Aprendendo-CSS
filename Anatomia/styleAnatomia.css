@@ -1,0 +1,27 @@
+.selector{
+        color: #fff;
+        font-size: 30px;
+        text-align:  center;
+            
+        /*multiplos valores*/
+        border: solid 5px navy;/*shorthand*/
+        font-family: Helvetica, sans-serif;
+            
+        /*funções*/
+        width: calc(100%-40px);
+        background-color: rgb(34,153,189);
+    }
+
+/*Usando uma pseudo-classe*/
+.selector:hover{
+    background-color: darkseagreen;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border: dashed red
+            
+    }
+
+/*Usando Pseudo-Elemento*/
+.selector::first-letter{
+    font-size: 60px;
+    font-weight: bold;
+}
