@@ -1,0 +1,23 @@
+h1/*tag link*/{
+    color: lawngreen !important;
+}
+
+h1{
+    color:  red ;
+}
+
+
+/*
+    tag style
+    <style> 
+        h1 {
+            color: red;
+        } 
+    </style> 
+    
+    */
+
+/*
+    inline
+        <h1 style ="color: green> Texto </h1>
+*/
