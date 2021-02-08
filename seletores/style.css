@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+}
+
+h1, h2{
+    color : rgb(255, 0, 200); /*cor da fonte*/
+}
+
+#container{
+    width: 200px;
+    background-color: green;
+}
+
+.m-40{
+    margin: 40px;
+    background-color: lawngreen;
+    
+}
