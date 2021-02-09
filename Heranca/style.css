@@ -1,8 +1,12 @@
 body{
-    font-family: monospace;
+    /*font-family: monospace;
     font-size: 40px;
     border: solid 3px red;
-    padding: 50px;
+    padding: 50px;*/
+
+    font-size: 15px;
+    padding: 5px;
+    border:solid 2px red;
 }
 
 div{

@@ -1,0 +1,28 @@
+body{
+    font-size: 40px;
+    color: white;
+    background-color: coral;
+}
+
+ul{ padding: 0;}
+
+div{ background-color: seagreen;}
+
+span{
+    background-color: dodgerblue;
+}
+
+li{
+    background-color: purple;
+}
+
+div, span, li{
+    width: 50%;
+    width: 200px;
+    height: 90px;
+    padding-top: 30px;
+    text-align: center;
+    display: block;/*coloca os itens um embaixo do outro*/
+    display: inline;/*coloca os itens em linha, porem não aceita formatação de altura e largura*/
+    display: inline-block;/*Pega o melhor de cada um*/
+}
