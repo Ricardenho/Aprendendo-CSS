@@ -1,0 +1,9 @@
+Unidades Absolutas:
+px = pixel
+cm = centimetro
+mm = milimetro
+
+viewport:
+vh = viewHeight
+vw = viewWeight
+
