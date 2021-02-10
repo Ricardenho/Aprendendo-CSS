@@ -5,5 +5,5 @@ mm = milimetro
 
 viewport:
 vh = viewHeight
-vw = viewWeight
+vw = viewWidth
 
