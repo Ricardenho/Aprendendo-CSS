@@ -1,0 +1,57 @@
+div{
+    font-size: 60px;
+    padding: 30px;
+    border: solid 5px black;
+}
+
+.static{
+    background-color: steelblue;
+    top: 100px;/*classe static não interfere*/
+    left: 100px;/*classe static não interfere*/
+}
+.fixed{
+    position: fixed;
+    bottom: 30px;
+    right: 0px;
+    background-color: tomato;
+}
+
+.relative1{
+    position: relative;/*se posiciona relativamente ao elemento anterior*/
+    left: 50px;
+    top: 5px;
+    background-color: seagreen ;
+}
+
+.absolute1{
+    position: absolute;
+    left: 350px;
+    top: 120px;
+    background-color: violet;
+}
+
+.relative2{
+    position: static;/*os elementos filhos usaram o body para se posicionar*/
+    position: relative;/*os Elementos filhos usam o elemento pai pra se posicionar*/
+    left: 250px;
+    top: 2000px;
+    width: 200px;
+    height: 200px;
+    background-color: slategray;
+}
+
+.absolute2{
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    width: 20px;
+    height: 20px;
+    background-color: orange;
+}
+
+.sticky{
+    position: -webkit-sticky; /*safari*/
+    position: sticky;
+    background-color: #777;
+    top: 10px;
+}
